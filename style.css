@@ -1,0 +1,171 @@
+body {
+    background: #f0d4ff;
+    display: grid;
+    place-items: center;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.drop-container {
+    background: #fff;
+    padding: 1.5rem;
+    width: 450px;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 0 0 40px 15px rgba(0, 0, 0, 0.2);
+}
+
+.drop {
+    border-radius: 10px;
+    border: 3px dashed #aaaaaa;
+    display: grid;
+    width: 100%;
+    place-content: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+}
+
+.active {
+    border: 3px solid #4b4b4b;
+    background: #edccff;
+}
+
+.drop .icon {
+    font-size: 60px;
+    color: #a916f9;
+}
+
+.drop .text {
+    text-align: center;
+    font-weight: 500;
+    color: #443f46;
+    margin-top: 1rem;
+}
+
+.progress {
+    background: #a916f9;
+    width: 0%;
+    height: 20px;
+    display: none;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.drop label {
+    background: #a916f9;
+    padding: 0.7rem 1.8rem;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.file-input {
+    display: none;
+}
+
+.line {
+    width: 80px;
+    height: 1px;
+    background: #949494;
+}
+
+.or-con {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.or {
+    margin: 0 1rem;
+    font-weight: 500;
+    color: #443f46;
+}
+
+.upload-success {
+    display: none;
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #4caf50;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* File names section */
+.file-names {
+    margin-top: 1rem;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+
+.file-names p {
+    font-size: 14px;
+    color: #333;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: #f7f7f7;
+    transition: background-color 0.3s ease;
+}
+
+.file-names p:hover {
+    background-color: #e1e1e1;
+}
+
+.file-names .file-icon {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #8e44ad;
+}
+
+.file-names .file-name {
+    flex-grow: 1;
+    font-weight: 500;
+    color: #555;
+}
+
+/* Add a small size icon for file types */
+.file-names .pdf-icon {
+    color: #e74c3c;
+}
+
+.file-names .image-icon {
+    color: #f39c12;
+}
+
+.file-names .video-icon {
+    color: #1abc9c;
+}
+
+.file-names .doc-icon {
+    color: #3498db;
+} 
+
+.file-name {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.file-name .delete-btn {
+  margin-left: 10px;
+  color: #ff4d4d;
+  cursor: pointer;
+} 
+
+.file-icon {
+  margin-right: 10px;
+}
+
+
+
+ /* 💡✌🏾 In the End, He made them Open-Source 💜❤️
