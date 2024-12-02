@@ -11,7 +11,7 @@ This is a Beautiful and interactive drag-and-drop file upload interface that all
 
 ## Demo
 
-![Project Preview](https://github.com/papaguycodes/drag-and-drop-upload/blob/main/demo/drag-n-drop.avi).
+A live demo of the drag-and-drop file upload system can be viewed [Here](https://github.com/papaguycodes/drag-and-drop-upload/blob/main/demo/drag-n-drop.avi).
 
 ![Project Preview](https://github.com/papaguycodes/drag-and-drop-upload/blob/main/demo/drag-n-drop1.png)
 
