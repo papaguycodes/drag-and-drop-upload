@@ -13,10 +13,13 @@ This is a Beautiful and interactive drag-and-drop file upload interface that all
 
 A live demo of the drag-and-drop file upload system can be viewed [here](https://github.com/papaguycodes/drag-and-drop-upload/blob/main/demo/drag-n-drop.avi).
 
-(https://github.com/papaguycodes/drag-and-drop-upload/blob/main/demo/drag-n-drop1.png)
-(https://github.com/papaguycodes/drag-and-drop-upload/blob/main/demo/drag-n-drop2.png)
-(https://github.com/papaguycodes/drag-and-drop-upload/blob/main/demo/drag-n-drop3.png)
-(https://github.com/papaguycodes/drag-and-drop-upload/blob/main/demo/drag-n-drop4.png)
+[Project Preview](https://github.com/papaguycodes/drag-and-drop-upload/blob/main/demo/drag-n-drop1.png)
+
+[Project Preview](https://github.com/papaguycodes/drag-and-drop-upload/blob/main/demo/drag-n-drop2.png)
+
+[Project Preview](https://github.com/papaguycodes/drag-and-drop-upload/blob/main/demo/drag-n-drop3.png)
+
+[Project Preview](https://github.com/papaguycodes/drag-and-drop-upload/blob/main/demo/drag-n-drop4.png)
 
 ## Technologies Used
 - **HTML5**: For structuring the web page
